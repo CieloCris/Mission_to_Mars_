@@ -35,6 +35,6 @@ text
 
 ![Alt text](/Resources/ipad.png "imagen7")
 
-![Alt text](/Resources/iphone.png "imagen6")
+![Alt text](/Resources/8.png "imagen6")
 
 ## Summary
