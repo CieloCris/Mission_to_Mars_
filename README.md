@@ -20,11 +20,6 @@ The following screenshot shows our website after scraping:
 
 ![Alt text](/Resources/4.png "imagen5")
 
-##### As we can see, our website is mobile-responsive:
-
-![Alt text](/Resources/ipad.png "imagen7")
-
-![Alt text](/Resources/8.png "imagen6")
 
 ##### Deliverable 1:
 
@@ -37,5 +32,12 @@ The following screenshot shows our website after scraping:
 ![Alt text](/Resources/scraping_hemi.png "imagen3")
 
 ##### Deliverable 3:
-- We changed background with different gray colors, formated the pattern of our table, and modified some heights.
+
+##### As we can see, our website is mobile-responsive:
+
+![Alt text](/Resources/ipad.png "imagen7")
+
+![Alt text](/Resources/8.png "imagen6")
+
+- We also changed background with different gray colors, formated the pattern of our table, and modified some heights.
 
