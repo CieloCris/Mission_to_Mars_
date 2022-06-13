@@ -37,5 +37,5 @@ The following screenshot shows our website after scraping:
 ![Alt text](/Resources/scraping_hemi.png "imagen3")
 
 ##### Deliverable 3:
-- We changed background with different gray colors, formated the pattern of our table and modified some heights.
+- We changed background with different gray colors, formated the pattern of our table, and modified some heights.
 
