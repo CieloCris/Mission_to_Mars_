@@ -1,40 +1,41 @@
-# Mission to Mars Analysis
-
-Web-Scraping with Splinter, Beautiful Soup and MongoDB
+# Mission to Mars
 
 
 ## Overview
-#### Purpose
+In this project, our purpose was to help Robin to automate a web browser to visit websites in order to extract data about the Mission to Mars.
+To pursue our goal, We used Splinter, BeautifulSoul, Python, Pandas, Flask, and MongoDB.
 
+In other words, our objective was to use web scraping to extract and analyze data about the Mission to Mars. We also create a web application with Flask to show our project.
 
-## Results
+## Resources 
 
-text
+Tools: Python, Jupyter Notebook, HTML, CSS, MongoDB, Flask, Pandas, Splinter, and BeautifulSoup.
 
-![Alt text](/Resources/hemis_url.png "imagen1")
+## Results:
 
-text
-
-![Alt text](/Resources/def_hemi.png "imagen2")
-
-text
-
-![Alt text](/Resources/scraping_hemi.png "imagen3")
-
-texto
+The following screenshot shows our website after scraping:
 
 ![Alt text](/Resources/3.png "imagen4")
 
-text
 
 ![Alt text](/Resources/4.png "imagen5")
 
-text
-
-#### iPhone and iPad
+##### As we can see, our website is mobile-responsive:
 
 ![Alt text](/Resources/ipad.png "imagen7")
 
 ![Alt text](/Resources/8.png "imagen6")
 
-## Summary
+##### Deliverable 1:
+
+![Alt text](/Resources/hemis_url.png "imagen1")
+
+##### Deliverable 2:
+
+![Alt text](/Resources/def_hemi.png "imagen2")
+
+![Alt text](/Resources/scraping_hemi.png "imagen3")
+
+##### Deliverable 3:
+- We changed background colors, formated the pattern of our table and modified some heights.
+
