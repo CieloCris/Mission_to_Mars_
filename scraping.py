@@ -1,4 +1,4 @@
-# Import Splinter, BeautifulSoup, and Pandas
+# Import Dependencies: Splinter, BeautifulSoup, and Pandas.
 from splinter import Browser
 from bs4 import BeautifulSoup as soup
 import pandas as pd
@@ -71,7 +71,7 @@ def featured_image(browser):
 
     # Add try/except for error handling
     try:
-        # find the relative image url
+        # Find the relative image url
         img_url_rel = img_soup.find('img', class_='fancybox-image').get('src')
 
     except AttributeError:
@@ -99,13 +99,13 @@ def mars_facts():
     # Convert dataframe into HTML format, add bootstrap
     return df.to_html(classes="table table-striped")
 
-
+# Challenge - Deliverable 2.- Scrape Hemispheres Data
 def hemispheres(browser):
     url = 'https://marshemispheres.com/'
 
     browser.visit(url + 'index.html')
 
-    # Click the link, find the sample anchor, return the href
+    # Collect four hemisphere images an titles
     hemisphere_image_urls = []
     for i in range(4):
         # Find the elements on each loop to avoid a stale element exception
@@ -114,17 +114,17 @@ def hemispheres(browser):
         hemi_data['img_url'] = url + hemi_data['img_url']
         # Append hemisphere object to list
         hemisphere_image_urls.append(hemi_data)
-        # Finally, we navigate backwards
+        # Navigate backwards
         browser.back()
 
     return hemisphere_image_urls
 
 
 def scrape_hemisphere(html_text):
-    # parse html text
+    # Parse html text
     hemi_soup = soup(html_text, "html.parser")
 
-    # adding try/except for error handling
+    # Adding try/except for error handling
     try:
         title_elem = hemi_soup.find("h2", class_="title").get_text()
         sample_elem = hemi_soup.find("a", text="Sample").get("href")
